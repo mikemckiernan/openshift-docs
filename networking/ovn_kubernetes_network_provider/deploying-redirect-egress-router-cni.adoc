@@ -1,0 +1,17 @@
+[id="egress-router-cni"]
+= Deploying an egress router pod in redirect mode
+include::modules/common-attrributes.adoc[]
+:context: egress-router-cni
+
+toc::[]
+
+As a cluster administrator, you can configure a network attachment
+that the egress router Container Network Interface (CNI) plug-in uses
+to act as an egress router.
+
+:FeatureName: The egress router CNI plug-in
+include::modules/technology-preview.adoc[leveloffset=+1]
+:!FeatureName:
+
+// Leaving this single file here just to make _any_ progress at all.
+include::modules/nw-egress-router-cni.adoc[leveloffset=+1]

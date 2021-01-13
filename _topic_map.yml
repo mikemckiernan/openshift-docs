@@ -784,6 +784,8 @@ Topics:
     File: configuring-egress-ips-ovn
   - Name: Assigning an egress IP address
     File: assigning-egress-ips-ovn
+  - Name: Deploying an egress router pod in redirect mode
+    File: deploying-redirect-egress-router-cni
   - Name: Enabling multicast for a project
     File: enabling-multicast
   - Name: Disabling multicast for a project
